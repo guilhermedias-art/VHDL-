@@ -15,3 +15,13 @@ A ULA é responsável por executar operações aritméticas e lógicas em dados 
 🔀 Mux (Multiplexador) → Seleção de operação
 
 🧩 ULA (Top-Level) → Integra todos os módulos, possibilitando a escolha entre operações aritméticas e lógicas
+
+
+
+🛠️ Ferramentas Utilizadas
+
+Linguagem: VHDL
+
+Simulação: ModelSim / GHDL
+
+Síntese: Quartus Prime (Intel FPGA)
