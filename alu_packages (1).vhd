@@ -11,7 +11,7 @@ package alu_packages is
     end component;
     
     component adder4bit
-        Port (s
+        Port (
             A, B : in STD_LOGIC_VECTOR(3 downto 0);
             Cin : in STD_LOGIC;
             Sum : out STD_LOGIC_VECTOR(3 downto 0);
@@ -33,4 +33,5 @@ package alu_packages is
             Prod : out STD_LOGIC_VECTOR(3 downto 0)
         );
     end component;
+
 end package alu_packages;
